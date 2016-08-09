@@ -144,7 +144,7 @@
                      '  define(\'DB_SERVER_PASSWORD\', \'' . trim($_POST['DB_SERVER_PASSWORD']) . '\');' . "\n" .
                      '  define(\'DB_DATABASE\', \'' . trim($_POST['DB_DATABASE']) . '\');' . "\n" .
                      '  define(\'USE_PCONNECT\', \'false\');' . "\n" .
-                     '  define(\'STORE_SESSIONS\', \'mysql\');' . "\n";
+                     '  define(\'STORE_SESSIONS\', \'MySQL\');' . "\n";
 
     if (isset($_POST['CFG_TIME_ZONE'])) {
       $file_contents .= '  define(\'CFG_TIME_ZONE\', \'' . trim($_POST['CFG_TIME_ZONE']) . '\');' . "\n";
@@ -197,7 +197,7 @@
                      '  define(\'DB_SERVER_PASSWORD\', \'' . trim($_POST['DB_SERVER_PASSWORD']) . '\');' . "\n" .
                      '  define(\'DB_DATABASE\', \'' . trim($_POST['DB_DATABASE']) . '\');' . "\n" .
                      '  define(\'USE_PCONNECT\', \'false\');' . "\n" .
-                     '  define(\'STORE_SESSIONS\', \'mysql\');' . "\n";
+                     '  define(\'STORE_SESSIONS\', \'MySQL\');' . "\n";
 
     if (isset($_POST['CFG_TIME_ZONE'])) {
       $file_contents .= '  define(\'CFG_TIME_ZONE\', \'' . trim($_POST['CFG_TIME_ZONE']) . '\');' . "\n";
